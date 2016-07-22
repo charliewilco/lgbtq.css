@@ -3,7 +3,7 @@
 \-----------------------------------------------!*/
 
 :root {
-  --h: 5rem;
+  --size: 5rem;
 
   --g-red: #D04B36;
   --g-orange: #E36511;
@@ -39,10 +39,17 @@
 
   --asex: linear-gradient(var(--a-black) 0%, var(--a-black) 20%, var(--a-gray) 20%, var(--a-gray) 40%, var(--a-white) 40%, var(--a-white) 60%, var(--a-purple) 60%, var(--a-purple) 80%, var(--a-black) 80%, var(--a-black) 100%);
 
+  --nb-black: #222222;
+  --nb-yellow: #F7E45A;
+  --nb-white: #F9FBFC;
+  --nb-purple: #675997;
+
+  --nb: linear-gradient(var(--nb-black) 0%, var(--nb-black) 20%, var(--nb-yellow) 20%, var(--nb-yellow) 40%, var(--nb-white) 40%, var(--nb-white) 60%, var(--nb-purple) 60%, var(--nb-purple) 80%, var(--nb-black) 80%, var(--nb-black) 100%);
+
   --banner: {
     content: '';
     width: 100%;
-    height: var(--h);
+    height: var(--size);
     display: block;
   }
 }
@@ -70,4 +77,9 @@
 .c-banner--asex:before {
   @apply --banner;
   background-image: var(--asex);
+}
+
+.c-banner--nonb:before {
+  @apply --banner;
+  background-image: var(--nb);
 }

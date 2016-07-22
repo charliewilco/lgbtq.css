@@ -46,3 +46,12 @@
   background-image: -webkit-linear-gradient(#222222 0%, #222222 20%, #A2A2A2 20%, #A2A2A2 40%, #F9FBFC 40%, #F9FBFC 60%, #A148A2 60%, #A148A2 80%, #222222 80%, #222222 100%);
   background-image: linear-gradient(#222222 0%, #222222 20%, #A2A2A2 20%, #A2A2A2 40%, #F9FBFC 40%, #F9FBFC 60%, #A148A2 60%, #A148A2 80%, #222222 80%, #222222 100%);
 }
+
+.c-banner--nonb:before {
+  content: '';
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-image: -webkit-linear-gradient(#222222 0%, #222222 20%, #F7E45A 20%, #F7E45A 40%, #F9FBFC 40%, #F9FBFC 60%, #675997 60%, #675997 80%, #222222 80%, #222222 100%);
+  background-image: linear-gradient(#222222 0%, #222222 20%, #F7E45A 20%, #F7E45A 40%, #F9FBFC 40%, #F9FBFC 60%, #675997 60%, #675997 80%, #222222 80%, #222222 100%);
+}

@@ -38,7 +38,7 @@ The colors are saturated for my personal preference and if you'd like to modify 
 After you've installed the project you can use in your HTML or templates like this:
 
 ```markup
-<body class="c-banner--[gay,bi,trans,pan,asex]">
+<body class="c-banner--[gay,bi,trans,pan,asex,nonb]">
 ```
 
 All the variables are listed in [index.css](https://github.com/charlespeters/lgbtq.css/blob/master/index.css)
