@@ -1,6 +1,6 @@
 {
   "name": "lgbtq.css",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Add some Pride to your stylesheets",
   "main": "lgbtq.source.css",
   "scripts": {
