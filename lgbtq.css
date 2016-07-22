@@ -37,3 +37,12 @@
   background-image: -webkit-linear-gradient(#FA5E5B 0%, #FA5E5B 33.332%, #FFBA00 33.332%, #FFBA00 66.667%, #4FA5C2 66.667%, #4FA5C2 100%);
   background-image: linear-gradient(#FA5E5B 0%, #FA5E5B 33.332%, #FFBA00 33.332%, #FFBA00 66.667%, #4FA5C2 66.667%, #4FA5C2 100%);
 }
+
+.c-banner--asex:before {
+  content: '';
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-image: -webkit-linear-gradient(#222222 0%, #222222 20%, #A2A2A2 20%, #A2A2A2 40%, #F9FBFC 40%, #F9FBFC 60%, #A148A2 60%, #A148A2 80%, #222222 80%, #222222 100%);
+  background-image: linear-gradient(#222222 0%, #222222 20%, #A2A2A2 20%, #A2A2A2 40%, #F9FBFC 40%, #F9FBFC 60%, #A148A2 60%, #A148A2 80%, #222222 80%, #222222 100%);
+}

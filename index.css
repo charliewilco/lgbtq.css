@@ -32,6 +32,13 @@
 
   --pan: linear-gradient(var(--p-magenta) 0%, var(--p-magenta) 33.332%, var(--p-yellow) 33.332%, var(--p-yellow) 66.667%, var(--p-blue) 66.667%, var(--p-blue) 100%);
 
+  --a-black: #222222;
+  --a-gray: #A2A2A2;
+  --a-white: #F9FBFC;
+  --a-purple: #A148A2;
+
+  --asex: linear-gradient(var(--a-black) 0%, var(--a-black) 20%, var(--a-gray) 20%, var(--a-gray) 40%, var(--a-white) 40%, var(--a-white) 60%, var(--a-purple) 60%, var(--a-purple) 80%, var(--a-black) 80%, var(--a-black) 100%);
+
   --banner: {
     content: '';
     width: 100%;
@@ -58,4 +65,9 @@
 .c-banner--pan:before {
   @apply --banner;
   background-image: var(--pan);
+}
+
+.c-banner--asex:before {
+  @apply --banner;
+  background-image: var(--asex);
 }
