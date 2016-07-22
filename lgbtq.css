@@ -1,0 +1,39 @@
+/*!-----------------------------------------------\
+      LGBTQ.css v1 MIT https://git.io/vK1KB
+\-----------------------------------------------!*/
+
+.c-banner--gay:before {
+  content: '';
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-image: -webkit-linear-gradient(#D04B36 0%, #D04B36 16.6666%, #E36511 16.6666%,#E36511 33.333%, #FFBA00 33.333%, #FFBA00 50%, #00B180 50%, #00B180 66.6666%, #147AAB 66.6666%, #147AAB 83.3333%, #675997 83.3333%, #675997 100%);
+  background-image: linear-gradient(#D04B36 0%, #D04B36 16.6666%, #E36511 16.6666%,#E36511 33.333%, #FFBA00 33.333%, #FFBA00 50%, #00B180 50%, #00B180 66.6666%, #147AAB 66.6666%, #147AAB 83.3333%, #675997 83.3333%, #675997 100%);
+}
+
+.c-banner--trans:before {
+  content: '';
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-image: -webkit-linear-gradient(#4FA5C2 0%, #4FA5C2 20%, #F587AC 20%, #F587AC 40%, #F9FBFC 40%, #F9FBFC 60%, #F587AC 60%, #F587AC 80%, #4FA5C2 80%, #4FA5C2 100%);
+  background-image: linear-gradient(#4FA5C2 0%, #4FA5C2 20%, #F587AC 20%, #F587AC 40%, #F9FBFC 40%, #F9FBFC 60%, #F587AC 60%, #F587AC 80%, #4FA5C2 80%, #4FA5C2 100%);
+}
+
+.c-banner--bi:before {
+  content: '';
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-image: -webkit-linear-gradient(#C1357E 0%, #C1357E 33.332%, #675997 33.332%, #675997 66.667%, #0655A9 66.667%, #0655A9 100%);
+  background-image: linear-gradient(#C1357E 0%, #C1357E 33.332%, #675997 33.332%, #675997 66.667%, #0655A9 66.667%, #0655A9 100%);
+}
+
+.c-banner--pan:before {
+  content: '';
+  width: 100%;
+  height: 5rem;
+  display: block;
+  background-image: -webkit-linear-gradient(#FA5E5B 0%, #FA5E5B 33.332%, #FFBA00 33.332%, #FFBA00 66.667%, #4FA5C2 66.667%, #4FA5C2 100%);
+  background-image: linear-gradient(#FA5E5B 0%, #FA5E5B 33.332%, #FFBA00 33.332%, #FFBA00 66.667%, #4FA5C2 66.667%, #4FA5C2 100%);
+}

@@ -1,0 +1,37 @@
+{
+  "name": "lgbtq.css",
+  "version": "0.0.1",
+  "description": "Add some Pride to your stylesheets",
+  "main": "lgbtq.source.css",
+  "scripts": {
+    "styles": "postcss -c .postcss.json",
+    "watch": "npm run styles -- -w"
+  },
+  "author": "charles peters <charlespeters42@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "postcss-apply": "^0.3.0",
+    "postcss-cli": "^2.5.2",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-reporter": "^1.4.1"
+  },
+  "dependencies": {
+    "postcss-apply": "^0.3.0",
+    "postcss-cli": "^2.5.2",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-reporter": "^1.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlespeters/lgbtq.css.git"
+  },
+  "keywords": [
+    "pride",
+    "css",
+    "gradients"
+  ],
+  "bugs": {
+    "url": "https://github.com/charlespeters/lgbtq.css/issues"
+  },
+  "homepage": "https://github.com/charlespeters/lgbtq.css#readme"
+}

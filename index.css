@@ -1,0 +1,61 @@
+/*!-----------------------------------------------\
+      LGBTQ.css v1 MIT https://git.io/vK1KB
+\-----------------------------------------------!*/
+
+:root {
+  --h: 5rem;
+
+  --g-red: #D04B36;
+  --g-orange: #E36511;
+  --g-yellow: #FFBA00;
+  --g-green: #00B180;
+  --g-blue: #147AAB;
+  --g-indigo: #675997;
+
+  --gay: linear-gradient(var(--g-red) 0%, var(--g-red) 16.6666%, var(--g-orange) 16.6666%,var(--g-orange) 33.333%, var(--g-yellow) 33.333%, var(--g-yellow) 50%, var(--g-green) 50%, var(--g-green) 66.6666%, var(--g-blue) 66.6666%, var(--g-blue) 83.3333%, var(--g-indigo) 83.3333%, var(--g-indigo) 100%);
+
+  --t-blue: #4FA5C2;
+  --t-pink: #F587AC;
+  --t-white: #F9FBFC;
+
+  --trans: linear-gradient(var(--t-blue) 0%, var(--t-blue) 20%, var(--t-pink) 20%, var(--t-pink) 40%, var(--t-white) 40%, var(--t-white) 60%, var(--t-pink) 60%, var(--t-pink) 80%, var(--t-blue) 80%, var(--t-blue) 100%);
+
+  --b-pink: #C1357E;
+  --b-purple: #675997;
+  --b-blue: #0655A9;
+
+  --bi: linear-gradient(var(--b-pink) 0%, var(--b-pink) 33.332%, var(--b-purple) 33.332%, var(--b-purple) 66.667%, var(--b-blue) 66.667%, var(--b-blue) 100%);
+
+  --p-magenta: #FA5E5B;
+  --p-yellow: #FFBA00;
+  --p-blue: #4FA5C2;
+
+  --pan: linear-gradient(var(--p-magenta) 0%, var(--p-magenta) 33.332%, var(--p-yellow) 33.332%, var(--p-yellow) 66.667%, var(--p-blue) 66.667%, var(--p-blue) 100%);
+
+  --banner: {
+    content: '';
+    width: 100%;
+    height: var(--h);
+    display: block;
+  }
+}
+
+.c-banner--gay:before {
+  @apply --banner;
+  background-image: var(--gay);
+}
+
+.c-banner--trans:before {
+  @apply --banner;
+  background-image: var(--trans);
+}
+
+.c-banner--bi:before {
+  @apply --banner;
+  background-image: var(--bi);
+}
+
+.c-banner--pan:before {
+  @apply --banner;
+  background-image: var(--pan);
+}
