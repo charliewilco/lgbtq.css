@@ -24,7 +24,7 @@
   --b-purple: #675997;
   --b-blue: #0655A9;
 
-  --bi: linear-gradient(var(--b-pink) 0%, var(--b-pink) 33.332%, var(--b-purple) 33.332%, var(--b-purple) 66.667%, var(--b-blue) 66.667%, var(--b-blue) 100%);
+  --bi: linear-gradient(var(--b-pink) 0%, var(--b-pink) 40%, var(--b-purple) 40%, var(--b-purple) 60%, var(--b-blue) 60%, var(--b-blue) 100%);
 
   --p-magenta: #FA5E5B;
   --p-yellow: #FFBA00;
