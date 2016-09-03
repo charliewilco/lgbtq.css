@@ -14,12 +14,12 @@ npm install lgbtq.css --save
 or from a CDN
 
 ```
-<link rel="stylesheet" href="//npmcdn.com/lgbtq.css/lgbtq.css" media="screen" title="LGBTQ.css" charset="utf-8">
+<link rel="stylesheet" href="//unpkg.com/lgbtq.css/lgbtq.css" media="screen" title="LGBTQ.css" charset="utf-8">
 ```
 
 ### Usage in Build
 
-Recommend you use [PostCSS](https://github.com/postcss/postcss) and [postcss-import](https://github.com/postcss/postcss-import). But there's a processed file available from a [CDN](https://npmcdn.com/lgbtq.css@1.0.1/lgbtq.css) and in the [repo](https://github.com/charlespeters/lgbtq.css/blob/master/lgbtq.css).
+Recommend you use [PostCSS](https://github.com/postcss/postcss) and [postcss-import](https://github.com/postcss/postcss-import). But there's a processed file available from a [CDN](https://unpkg.com/lgbtq.css@1.0.1/lgbtq.css) and in the [repo](https://github.com/charlespeters/lgbtq.css/blob/master/lgbtq.css).
 
 ```css
 @import 'lgbtq.css';
