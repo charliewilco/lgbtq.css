@@ -1,0 +1,29 @@
+/*!-----------------------------------------------\
+      LGBTQ.css v2 MIT https://git.io/vK1KB
+\-----------------------------------------------!*/
+
+@import "./colors.css";
+
+.Gay {
+  background-image: var(--gay);
+}
+
+.Trans {
+  background-image: var(--trans);
+}
+
+.BiPlus {
+  background-image: var(--bi);
+}
+
+.Pansexual {
+  background-image: var(--pan);
+}
+
+.Asexual {
+  background-image: var(--asex);
+}
+
+.NonBinary {
+  background-image: var(--nb);
+}

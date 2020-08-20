@@ -1,0 +1,102 @@
+:root {
+  --g-red: #d04b36;
+  --g-orange: #e36511;
+  --g-yellow: #ffba00;
+  --g-green: #00b180;
+  --g-blue: #147aab;
+  --g-indigo: #675997;
+
+  --gay: linear-gradient(
+    var(--g-red) 0%,
+    var(--g-red) 16.6666%,
+    var(--g-orange) 16.6666%,
+    var(--g-orange) 33.333%,
+    var(--g-yellow) 33.333%,
+    var(--g-yellow) 50%,
+    var(--g-green) 50%,
+    var(--g-green) 66.6666%,
+    var(--g-blue) 66.6666%,
+    var(--g-blue) 83.3333%,
+    var(--g-indigo) 83.3333%,
+    var(--g-indigo) 100%
+  );
+
+  --t-blue: #4fa5c2;
+  --t-pink: #f587ac;
+  --t-white: #f9fbfc;
+
+  --trans: linear-gradient(
+    var(--t-blue) 0%,
+    var(--t-blue) 20%,
+    var(--t-pink) 20%,
+    var(--t-pink) 40%,
+    var(--t-white) 40%,
+    var(--t-white) 60%,
+    var(--t-pink) 60%,
+    var(--t-pink) 80%,
+    var(--t-blue) 80%,
+    var(--t-blue) 100%
+  );
+
+  --b-pink: #c1357e;
+  --b-purple: #675997;
+  --b-blue: #0655a9;
+
+  --bi: linear-gradient(
+    var(--b-pink) 0%,
+    var(--b-pink) 40%,
+    var(--b-purple) 40%,
+    var(--b-purple) 60%,
+    var(--b-blue) 60%,
+    var(--b-blue) 100%
+  );
+
+  --p-magenta: #fa5e5b;
+  --p-yellow: #ffba00;
+  --p-blue: #4fa5c2;
+
+  --pan: linear-gradient(
+    var(--p-magenta) 0%,
+    var(--p-magenta) 33.332%,
+    var(--p-yellow) 33.332%,
+    var(--p-yellow) 66.667%,
+    var(--p-blue) 66.667%,
+    var(--p-blue) 100%
+  );
+
+  --a-black: #222222;
+  --a-gray: #a2a2a2;
+  --a-white: #f9fbfc;
+  --a-purple: #a148a2;
+
+  --asex: linear-gradient(
+    var(--a-black) 0%,
+    var(--a-black) 20%,
+    var(--a-gray) 20%,
+    var(--a-gray) 40%,
+    var(--a-white) 40%,
+    var(--a-white) 60%,
+    var(--a-purple) 60%,
+    var(--a-purple) 80%,
+    var(--a-black) 80%,
+    var(--a-black) 100%
+  );
+
+  --nb-black: #222222;
+  --nb-yellow: #f7e45a;
+  --nb-white: #f9fbfc;
+  --nb-purple: #675997;
+
+  --nb: linear-gradient(
+    var(--nb-black) 0%,
+    var(--nb-black) 20%,
+    var(--nb-yellow) 20%,
+    var(--nb-yellow) 40%,
+    var(--nb-white) 40%,
+    var(--nb-white) 60%,
+    var(--nb-purple) 60%,
+    var(--nb-purple) 80%,
+    var(--nb-black) 80%,
+    var(--nb-black) 100%
+  );
+}
