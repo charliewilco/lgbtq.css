@@ -1062,6 +1062,11 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-9.5.2.tgz#5d92d8ad0f2bd79de2290614e74e5a12a0cda02b"
   integrity sha512-ch/16u3OVy/aIXJROwqXZjGw/tFMyG7qy2IGDA2RFjvQMtPyJJrklmwX2EcfH4+4spRI2MZKes2soI+0w2/MDQ==
 
+"@sindresorhus/class-names@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/class-names/-/class-names-1.1.0.tgz#0169df27fcd7cdc0cf565cbd4ee9f30095fa4a0d"
+  integrity sha512-08ZNyv6o1ynBFg+JuMOxGikXiF6TU9Y7xr3Nzb6r6e/D5OAOU+W+BS+BV2AQqpXOqFLYrGLow2Mc2PlRc4bNoQ==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
@@ -3167,6 +3172,11 @@ levenary@^1.1.1:
   dependencies:
     leven "^3.1.0"
 
+lgbtq.css@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/lgbtq.css/-/lgbtq.css-2.0.5.tgz#2fc60b2fe91a6abb4f73f421038ec0126cb4c096"
+  integrity sha512-8FOg8GyUaLE00RU5S7Zpr6y32KEq867pCKypl03WYw08KRiT8M6yOLezgRSRGfHXwcbqg4g0ewaOxB/AU6dyKw==
+
 loader-runner@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/loader-runner/-/loader-runner-2.4.0.tgz#ed47066bfe534d7e84c4c7b9998c2a75607d9357"
@@ -4884,6 +4894,11 @@ source-map@^0.5.0, source-map@^0.5.6:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
 
+source-serif-pro@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/source-serif-pro/-/source-serif-pro-3.1.0.tgz#22e4916c537a610d27cfa3b51a7f2057d06963ef"
+  integrity sha512-b4/f5JilgkEGbFjLh7M9safsjWTovyfvpiQIgGY8pigRkH5lAfO+9jLxbRnKoekBQqmnhacWxiRsCJu4JB4Qhg==
+
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/split-string/-/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
@@ -5204,6 +5219,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typeface-jetbrains-mono@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/typeface-jetbrains-mono/-/typeface-jetbrains-mono-2.0.0.tgz#f522311d18ae5681efce1699a99225b525b82e29"
+  integrity sha512-QrIlq+Jtn5ghF0RUSa6WubXro+DmtBOC9M+YQeODd1fW31jPzvY1qRM0qiarIelLgoj4ytWrj6iXCPxcbDWavw==
 
 typescript@3.9.7:
   version "3.9.7"

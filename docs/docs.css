@@ -1,3 +1,7 @@
+@import "~source-serif-pro/source-serif-pro.css";
+@import "~typeface-jetbrains-mono";
+@import "~lgbtq.css/dist/lgbtq.css";
+
 @tailwind base;
 
 @tailwind components;

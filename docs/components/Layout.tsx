@@ -8,7 +8,7 @@ type Props = {
 };
 
 const Layout = ({ children, title = "This is the default title" }: Props) => (
-  <div>
+  <div className="font-serif bg-black text-white">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
@@ -18,8 +18,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <FiGithub size={24}/>
     </header>
     {children}
-    <footer>
-      <hr />
+    <footer className="font-mono text-center px-2 py-4">
       <span>I'm here to stay (Footer)</span>
     </footer>
   </div>
