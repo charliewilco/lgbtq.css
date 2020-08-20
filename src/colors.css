@@ -204,4 +204,28 @@
     var(--i-yellow) 15%,
     var(--i-yellow) 100%
   );
+
+  --lesbian-darkorange: #d82c01;
+  --lesbian-paleorange: #f1752c;
+  --lesbian-liteorange: #ff985b;
+  --lesbian-center: #ffffff;
+  --lesbian-litemagenta: #d162a3;
+  --lesbian-palemagenta: #b75591;
+  --lesbian-darkmagenta: #a60260;
+  --lesbian: linear-gradient(
+    var(--lesbian-darkorange) 0%,
+    var(--lesbian-darkorange) 14.28%,
+    var(--lesbian-paleorange) 14.28%,
+    var(--lesbian-paleorange) 28.58%,
+    var(--lesbian-liteorange) 28.58%,
+    var(--lesbian-liteorange) 42.87%,
+    var(--lesbian-center) 42.87%,
+    var(--lesbian-center) 57.16%,
+    var(--lesbian-litemagenta) 57.16%,
+    var(--lesbian-litemagenta) 71.45%,
+    var(--lesbian-palemagenta) 71.45%,
+    var(--lesbian-palemagenta) 85.74%,
+    var(--lesbian-darkmagenta) 85.74%,
+    var(--lesbian-darkmagenta) 100%
+  );
 }

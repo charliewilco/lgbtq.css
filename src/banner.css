@@ -69,3 +69,8 @@
   @apply --banner;
   background-image: var(--intersex);
 }
+
+.BannerLesbian:before {
+  @apply --banner;
+  background-image: var(--lesbian);
+}
