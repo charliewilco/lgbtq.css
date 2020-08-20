@@ -5,13 +5,10 @@
   "main": "./dist/lgbtq.css",
   "browser": "./dist/lgbtq.css",
   "files": [
-    "./dist/lgbtq.css",
-    "./dist/lgbtq-banner.css"
+    "./dist/lgbtq.css"
   ],
   "scripts": {
-    "styles": "yarn styles:banner && yarn styles:bg",
-    "styles:banner": "postcss src/banner.css -o dist/lgbtq-banners.css",
-    "styles:bg": "postcss src/bg.css -o dist/lgbtq.css",
+    "styles": "postcss src/index.css -o dist/lgbtq.css",
     "prepublish": "yarn styles"
   },
   "author": "charles peters <charlespeters42@gmail.com>",

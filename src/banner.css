@@ -1,9 +1,3 @@
-/*!-----------------------------------------------\
-      LGBTQ.css v2 MIT https://git.io/vK1KB
-\-----------------------------------------------!*/
-
-@import "./colors.css";
-
 :root {
   --size: 5rem;
 
@@ -73,4 +67,29 @@
 .BannerLesbian:before {
   @apply --banner;
   background-image: var(--lesbian);
+}
+
+.BannerPolyamorous:before {
+  @apply --banner;
+  background: var(--polyamorous);
+}
+
+.BannerOmnisexual:before {
+  @apply --banner;
+  background: var(--omni);
+}
+
+.BannerPolysexual:before {
+  @apply --banner;
+  background: var(--polysexual-image);
+}
+
+.BannerAroAce:before {
+  @apply --banner;
+  background: var(--aroace);
+}
+
+.BannerGenderqueer:before {
+  @apply --banner;
+  background: var(--genderqueer);
 }

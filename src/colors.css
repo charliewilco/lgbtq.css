@@ -228,4 +228,80 @@
     var(--lesbian-darkmagenta) 85.74%,
     var(--lesbian-darkmagenta) 100%
   );
+
+  --polyamorous-yellow: #ffea6f;
+  --polyamorous-blue: #14abea;
+  --polyamorous-red: #fd2142;
+  --polyamorous-black: #181919;
+  --polyamorous: no-repeat
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='40' width='40'%3E%3Cstyle%3E.y%7Bfill:%23ffea6f%7D%3C/style%3E%3Ctext x='0' y='30' font-size='40' class='y'%3Eπ%3C/text%3E%3C/svg%3E")
+      center center,
+    linear-gradient(
+      var(--polyamorous-blue) 0%,
+      var(--polyamorous-blue) 40%,
+      var(--polyamorous-red) 40%,
+      var(--polyamorous-red) 60%,
+      var(--polyamorous-black) 60%,
+      var(--polyamorous-black) 100%
+    );
+
+  --omni-pink: #ff92c5;
+  --omni-fuschia: #ff4ab3;
+  --omni-violet: #24033c;
+  --omni-softindigo: #5855f8;
+  --omni-periwinkle: #7b9dfb;
+  --omni: linear-gradient(
+    var(--omni-pink) 0%,
+    var(--omni-pink) 20%,
+    var(--omni-fuschia) 20%,
+    var(--omni-fuschia) 40%,
+    var(--omni-violet) 40%,
+    var(--omni-violet) 60%,
+    var(--omni-softindigo) 60%,
+    var(--omni-softindigo) 80%,
+    var(--omni-periwinkle) 80%,
+    var(--omni-periwinkle) 100%
+  );
+
+  --p-magenta: #ea38aa;
+  --p-green: #44cc70;
+  --p-blue: #2188e8;
+  --polysexual-image: linear-gradient(
+    var(--p-magenta) 0%,
+    var(--p-magenta) 33.332%,
+    var(--p-green) 33.332%,
+    var(--p-green) 66.667%,
+    var(--p-blue) 66.667%,
+    var(--p-blue) 100%
+  );
+
+  --aroace-gold: #e68222;
+  --aroace-yellow: #eec62d;
+  --aroace-white: #fff;
+  --aroace-aqua: #49a6d5;
+  --aroace-navy: #1c304b;
+  --aroace: linear-gradient(
+    var(--aroace-gold) 0%,
+    var(--aroace-gold) 20%,
+    var(--aroace-yellow) 20%,
+    var(--aroace-yellow) 40%,
+    var(--aroace-white) 40%,
+    var(--aroace-white) 60%,
+    var(--aroace-aqua) 60%,
+    var(--aroace-aqua) 80%,
+    var(--aroace-navy) 80%,
+    var(--aroace-navy) 100%
+  );
+
+  --gq-lavender: #b390d6;
+  --gq-white: #fff;
+  --gq-olive: #5d8437;
+  --genderqueer: linear-gradient(
+    var(--gq-lavender) 0%,
+    var(--gq-lavender) 33.332%,
+    var(--gq-white) 33.332%,
+    var(--gq-white) 66.667%,
+    var(--gq-olive) 66.667%,
+    var(--gq-olive) 100%
+  );
 }
