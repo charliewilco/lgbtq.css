@@ -44,3 +44,28 @@
   @apply --banner;
   background-image: var(--nb);
 }
+
+.BannerQueer:before {
+  @apply --banner;
+  background-image: var(--queer);
+}
+
+.BannerGayMale:before {
+  @apply --banner;
+  background-image: var(--gaymen);
+}
+
+.BannerGenderFluid:before {
+  @apply --banner;
+  background-image: var(--genderfluid);
+}
+
+.BannerAgender:before {
+  @apply --banner;
+  background-image: var(--agender);
+}
+
+.BannerIntersex:before {
+  @apply --banner;
+  background-image: var(--intersex);
+}

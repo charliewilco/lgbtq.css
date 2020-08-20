@@ -99,4 +99,109 @@
     var(--nb-black) 80%,
     var(--nb-black) 100%
   );
+
+  --q-black: #000000;
+  --q-cornflower: #99d9eb;
+  --q-azure: #00a2e6;
+  --q-lime: #b4e637;
+  --q-white: #fff;
+  --q-yellow: #ffba00;
+  --q-magenta: #fd6666;
+  --q-pink: #ffafc8;
+  --queer: linear-gradient(
+    var(--q-black) 0%,
+    var(--q-black) 8%,
+    var(--q-cornflower) 8%,
+    var(--q-cornflower) 20%,
+    var(--q-azure) 20%,
+    var(--q-azure) 32%,
+    var(--q-lime) 32%,
+    var(--q-lime) 44%,
+    var(--q-white) 44%,
+    var(--q-white) 56%,
+    var(--q-yellow) 56%,
+    var(--q-yellow) 68%,
+    var(--q-magenta) 68%,
+    var(--q-magenta) 80%,
+    var(--q-pink) 80%,
+    var(--q-pink) 92%,
+    var(--q-black) 92%,
+    var(--q-black) 100%
+  );
+
+  --gaymen-darkgreen: #007c6b;
+  --gaymen-palegreen: #40a4a5;
+  --gaymen-litegreen: #59c8d2;
+  --gaymen-center: #f0efff;
+  --gaymen-liteblue: #7aade0;
+  --gaymen-paleblue: #0b83c9;
+  --gaymen-darkblue: #04336f;
+  --gaymen: linear-gradient(
+    var(--gaymen-darkgreen) 0%,
+    var(--gaymen-darkgreen) 14.28%,
+    var(--gaymen-palegreen) 14.28%,
+    var(--gaymen-palegreen) 28.58%,
+    var(--gaymen-litegreen) 28.58%,
+    var(--gaymen-litegreen) 42.87%,
+    var(--gaymen-center) 42.87%,
+    var(--gaymen-center) 57.16%,
+    var(--gaymen-liteblue) 57.16%,
+    var(--gaymen-liteblue) 71.45%,
+    var(--gaymen-paleblue) 71.45%,
+    var(--gaymen-paleblue) 85.74%,
+    var(--gaymen-darkblue) 85.74%,
+    var(--gaymen-darkblue) 100%
+  );
+
+  --gf-pink: #f39ec1;
+  --gf-white: #ffffff;
+  --gf-purple: #a74a95;
+  --gf-black: #000000;
+  --gf-blue: #0068b5;
+  --genderfluid: linear-gradient(
+    var(--gf-pink) 0%,
+    var(--gf-pink) 20%,
+    var(--gf-white) 20%,
+    var(--gf-white) 40%,
+    var(--gf-purple) 40%,
+    var(--gf-purple) 60%,
+    var(--gf-black) 60%,
+    var(--gf-black) 80%,
+    var(--gf-blue) 80%,
+    var(--gf-blue) 100%
+  );
+
+  --ag-white: #fff;
+  --ag-green: #b8f58a;
+  --ag-grey: #b9b9b9;
+  --ag-black: #000000;
+  --agender: linear-gradient(
+    var(--ag-black) 0%,
+    var(--ag-black) 14.28%,
+    var(--ag-grey) 14.28%,
+    var(--ag-grey) 28.58%,
+    var(--ag-white) 28.58%,
+    var(--ag-white) 42.87%,
+    var(--ag-green) 42.87%,
+    var(--ag-green) 57.16%,
+    var(--ag-white) 57.16%,
+    var(--ag-white) 71.45%,
+    var(--ag-grey) 71.45%,
+    var(--ag-grey) 85.74%,
+    var(--ag-black) 85.74%,
+    var(--ag-black) 100%
+  );
+
+  --i-yellow: #ffba00;
+  --i-indigo: #675997;
+
+  --intersex: repeating-radial-gradient(
+    circle at center,
+    var(--i-yellow),
+    var(--i-yellow) 10%,
+    var(--i-indigo) 10%,
+    var(--i-indigo) 15%,
+    var(--i-yellow) 15%,
+    var(--i-yellow) 100%
+  );
 }

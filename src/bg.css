@@ -27,3 +27,23 @@
 .NonBinary {
   background-image: var(--nb);
 }
+
+.Queer {
+  background-image: var(--queer);
+}
+
+.GayMale {
+  background-image: var(--gaymen);
+}
+
+.GenderFluid {
+  background-image: var(--genderfluid);
+}
+
+.Agender {
+  background-image: var(--agender);
+}
+
+.Intersex {
+  background-image: var(--intersex);
+}
