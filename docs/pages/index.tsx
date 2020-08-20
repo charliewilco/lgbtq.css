@@ -14,11 +14,12 @@ const Sample: React.FC<{ className: string, label?: string; }> = props => {
 };
 
 const IndexPage: NextPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
+  <Layout title="LGBTQ.css">
     <header className="text-center py-32 px-2">
       <h1 className="font-mono text-5xl font-bold mb-4">🌈 <br />LGBTQ.css</h1>
       <p className="text-md font-mono uppercase tracking-widest">adding some pride to your stylesheets</p>
     </header>
+
     <section className="px-2 container mx-auto">
       <h2 className="text-3xl mb-4 font-sans font-black">Flags</h2>
 
@@ -37,7 +38,11 @@ const IndexPage: NextPage = () => (
         <Sample className="Agender" label="Agender Pride"/>
       </div>
     </section>
-    <section className="px-2 container mx-auto mb-64">
+    <section className="px-2 container mx-auto mb-32">
+      <h2 className="text-3xl mb-4 font-sans font-black">About</h2>
+      <p> FlagsSome simple CSS gradients to add some pride to your stylesheets. Color values are slightly saturated for preference.</p>
+      
+    </section>    <section className="px-2 container mx-auto mb-64">
       <h2 className="text-3xl mb-4 font-sans font-black">Usage</h2>
       <div className="md:grid grid-cols-6 gap-4"></div>
     </section>
