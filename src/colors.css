@@ -88,15 +88,13 @@
   --nb-purple: #675997;
 
   --nb: linear-gradient(
-    var(--nb-black) 0%,
-    var(--nb-black) 20%,
-    var(--nb-yellow) 20%,
-    var(--nb-yellow) 40%,
-    var(--nb-white) 40%,
-    var(--nb-white) 60%,
-    var(--nb-purple) 60%,
-    var(--nb-purple) 80%,
-    var(--nb-black) 80%,
+    var(--nb-yellow) 0%,
+    var(--nb-yellow) 25%,
+    var(--nb-white) 25%,
+    var(--nb-white) 50%,
+    var(--nb-purple) 50%,
+    var(--nb-purple) 75%,
+    var(--nb-black) 75%,
     var(--nb-black) 100%
   );
 
