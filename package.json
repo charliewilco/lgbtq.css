@@ -1,6 +1,6 @@
 {
   "name": "lgbtq.css",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "Add some Pride to your stylesheets",
   "main": "./dist/lgbtq.css",
   "browser": "./dist/lgbtq.css",
