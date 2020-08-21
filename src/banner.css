@@ -1,95 +1,79 @@
 :root {
-  --size: 5rem;
-
-  --banner: {
-    content: "";
-    width: 100%;
-    height: var(--size);
-    display: block;
-  }
+  --banner-size: 5rem;
 }
 
-.BannerGay:before {
-  @apply --banner;
+.PrideBanner:before {
+  content: "";
+  width: 100%;
+  height: var(--banner-size);
+  display: block;
+}
+
+.GayBanner:before {
   background-image: var(--gay);
 }
 
-.BannerTrans:before {
-  @apply --banner;
+.TransBanner:before {
   background-image: var(--trans);
 }
 
-.BannerBiPlus:before {
-  @apply --banner;
+.BiPlusBanner:before {
   background-image: var(--bi);
 }
 
-.BannerPansexual:before {
+.PansexualBanner:before {
   @apply --banner;
   background-image: var(--pan);
 }
 
-.BannerAsexual:before {
-  @apply --banner;
+.AsexualBanner:before {
   background-image: var(--asex);
 }
 
-.BannerNonBinary:before {
-  @apply --banner;
+.NonBinaryBanner:before {
   background-image: var(--nb);
 }
 
-.BannerQueer:before {
-  @apply --banner;
+.QueerBanner:before {
   background-image: var(--queer);
 }
 
-.BannerGayMale:before {
-  @apply --banner;
+.GayMaleBanner:before {
   background-image: var(--gaymen);
 }
 
-.BannerGenderFluid:before {
-  @apply --banner;
+.GenderFluidBanner:before {
   background-image: var(--genderfluid);
 }
 
-.BannerAgender:before {
-  @apply --banner;
+.AgenderBanner:before {
   background-image: var(--agender);
 }
 
-.BannerIntersex:before {
-  @apply --banner;
+.IntersexBanner:before {
   background-image: var(--intersex);
 }
 
-.BannerLesbian:before {
-  @apply --banner;
+.LesbianBanner:before {
   background-image: var(--lesbian);
 }
 
-.BannerPolyamorous:before {
-  @apply --banner;
+.PolyamorousBanner:before {
   background: var(--polyamorous);
 }
 
-.BannerOmnisexual:before {
-  @apply --banner;
+.OmnisexualBanner:before {
   background: var(--omni);
 }
 
-.BannerPolysexual:before {
-  @apply --banner;
+.PolysexualBanner:before {
   background: var(--polysexual-image);
 }
 
-.BannerAroAce:before {
-  @apply --banner;
+.AroAceBanner:before {
   background: var(--aroace);
 }
 
-.BannerGenderqueer:before {
-  @apply --banner;
+.GenderqueerBanner:before {
   background: var(--genderqueer);
 }

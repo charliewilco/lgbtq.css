@@ -14,7 +14,6 @@
   "author": "charles peters <charlespeters42@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "postcss-apply": "^0.12.0",
     "postcss-cli": "^7.1.1",
     "postcss-import": "^12.0.1",
     "postcss-preset-env": "^6.7.0",
@@ -29,7 +28,6 @@
     "map": false,
     "plugins": {
       "postcss-import": {},
-      "postcss-apply": {},
       "postcss-preset-env": {},
       "postcss-reporter": {
         "clearMessages": true

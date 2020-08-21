@@ -3172,10 +3172,10 @@ levenary@^1.1.1:
   dependencies:
     leven "^3.1.0"
 
-lgbtq.css@2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/lgbtq.css/-/lgbtq.css-2.0.5.tgz#2fc60b2fe91a6abb4f73f421038ec0126cb4c096"
-  integrity sha512-8FOg8GyUaLE00RU5S7Zpr6y32KEq867pCKypl03WYw08KRiT8M6yOLezgRSRGfHXwcbqg4g0ewaOxB/AU6dyKw==
+lgbtq.css@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/lgbtq.css/-/lgbtq.css-2.0.7.tgz#45f6ae78c00b005aef0557332d0ccfe2b5ff14af"
+  integrity sha512-8V88jr0md5kBBMt10HNsm89l36M6RPzqDmrujkb1RakP7/udsFEriXe2LZJ+LSbAwsNhPZUmaJRhQJ10oMiymQ==
 
 loader-runner@^2.4.0:
   version "2.4.0"
