@@ -29,7 +29,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => {
       <header className="container mx-auto flex justify-end py-4 px-2">
         <FiGithub size={24} />
       </header>
-      <main className="container mx-auto px-2 grid grid-cols-12 gap-4">
+      <main className="container mx-auto px-2 grid grid-cols-12 gap-8">
         {children}
       </main>
       <footer className="px-2 py-4 font-mono text-center">

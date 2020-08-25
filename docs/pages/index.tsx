@@ -6,7 +6,7 @@ const BASE = "shadow-md rounded w-full h-24 mb-2";
 
 const Sample: React.FC<{ className: string; label?: string }> = props => {
   return (
-    <div className="mb-16">
+    <div className="">
       <div className={classNames(BASE, props.className)} role="img"></div>
       {props.label ? (
         <h4 className="font-mono text-xs font-bold tracking-widest opacity-50 uppercase">
@@ -39,7 +39,7 @@ const IndexPage: NextPage = () => (
         adding some pride to your stylesheets
       </p>
     </header>
-    <ContentArea className="py-32 col-span-6 mb-32">
+    <ContentArea className="py-32 col-span-12 lg:col-span-6 mb-32">
       <article>
         <ContentTitle>About</ContentTitle>
 
@@ -51,7 +51,7 @@ const IndexPage: NextPage = () => (
     </ContentArea>
     <ContentArea className="col-span-12">
       <ContentTitle>Flags</ContentTitle>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
         <Sample className="Gay" label="Gay Pride" />
         <Sample className="BiPlus" label="Bisexual Pride" />
         <Sample className="Trans" label="Transgender Pride" />
