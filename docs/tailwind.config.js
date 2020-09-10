@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mono: "JetBrains Mono, monospace"
+        mono: "Source Code Pro, monospace"
       },
       screens: {
         dark: { raw: "(prefers-color-scheme: dark)" }
