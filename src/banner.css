@@ -1,0 +1,79 @@
+:root {
+  --banner-size: 5rem;
+}
+
+.PrideBanner:before {
+  content: "";
+  width: 100%;
+  height: var(--banner-size);
+  display: block;
+}
+
+.GayBanner:before {
+  background-image: var(--gay);
+}
+
+.TransBanner:before {
+  background-image: var(--trans);
+}
+
+.BiPlusBanner:before {
+  background-image: var(--bi);
+}
+
+.PansexualBanner:before {
+  @apply --banner;
+  background-image: var(--pan);
+}
+
+.AsexualBanner:before {
+  background-image: var(--asex);
+}
+
+.NonBinaryBanner:before {
+  background-image: var(--nb);
+}
+
+.QueerBanner:before {
+  background-image: var(--queer);
+}
+
+.GayMaleBanner:before {
+  background-image: var(--gaymen);
+}
+
+.GenderFluidBanner:before {
+  background-image: var(--genderfluid);
+}
+
+.AgenderBanner:before {
+  background-image: var(--agender);
+}
+
+.IntersexBanner:before {
+  background-image: var(--intersex);
+}
+
+.LesbianBanner:before {
+  background-image: var(--lesbian);
+}
+
+.PolyamorousBanner:before {
+  background: var(--polyamorous);
+}
+
+.OmnisexualBanner:before {
+  background: var(--omni);
+}
+
+.PolysexualBanner:before {
+  background: var(--polysexual-image);
+}
+
+.AroAceBanner:before {
+  background: var(--aroace);
+}
+
+.GenderqueerBanner:before {
+  background: var(--genderqueer);
+}

@@ -1,0 +1,7 @@
+@import "~typeface-source-code-pro";
+@import "~lgbtq.css";
+
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;

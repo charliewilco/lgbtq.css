@@ -1,30 +1,40 @@
 {
   "name": "lgbtq.css",
-  "version": "1.1.1",
+  "version": "2.0.7",
   "description": "Add some Pride to your stylesheets",
-  "main": "lgbtq.source.css",
+  "main": "./dist/lgbtq.css",
+  "browser": "./dist/lgbtq.css",
+  "files": [
+    "./dist/lgbtq.css"
+  ],
   "scripts": {
-    "styles": "postcss -c .postcss.json",
-    "watch": "npm run styles -- -w"
+    "styles": "postcss src/index.css -o dist/lgbtq.css",
+    "prepublish": "yarn styles"
   },
   "author": "charles peters <charlespeters42@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "postcss-apply": "^0.3.0",
-    "postcss-cli": "^2.5.2",
-    "postcss-cssnext": "^2.7.0",
-    "postcss-reporter": "^1.4.1"
+    "postcss-cli": "^7.1.1",
+    "postcss-import": "^12.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "postcss-reporter": "^6.0.1"
   },
-  "dependencies": {
-    "postcss-apply": "^0.3.0",
-    "postcss-cli": "^2.5.2",
-    "postcss-cssnext": "^2.7.0",
-    "postcss-reporter": "^1.4.1"
+  "browserslist": [
+    "last 3 versions",
+    "> 5%",
+    "ff >= 10"
+  ],
+  "postcss": {
+    "map": false,
+    "plugins": {
+      "postcss-import": {},
+      "postcss-preset-env": {},
+      "postcss-reporter": {
+        "clearMessages": true
+      }
+    }
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/charlespeters/lgbtq.css.git"
-  },
+  "repository": "charliewilco/lgbtq.css",
   "keywords": [
     "pride",
     "css",

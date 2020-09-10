@@ -1,0 +1,305 @@
+:root {
+  --g-red: #d04b36;
+  --g-orange: #e36511;
+  --g-yellow: #ffba00;
+  --g-green: #00b180;
+  --g-blue: #147aab;
+  --g-indigo: #675997;
+
+  --gay: linear-gradient(
+    var(--g-red) 0%,
+    var(--g-red) 16.6666%,
+    var(--g-orange) 16.6666%,
+    var(--g-orange) 33.333%,
+    var(--g-yellow) 33.333%,
+    var(--g-yellow) 50%,
+    var(--g-green) 50%,
+    var(--g-green) 66.6666%,
+    var(--g-blue) 66.6666%,
+    var(--g-blue) 83.3333%,
+    var(--g-indigo) 83.3333%,
+    var(--g-indigo) 100%
+  );
+
+  --t-blue: #4fa5c2;
+  --t-pink: #f587ac;
+  --t-white: #f9fbfc;
+
+  --trans: linear-gradient(
+    var(--t-blue) 0%,
+    var(--t-blue) 20%,
+    var(--t-pink) 20%,
+    var(--t-pink) 40%,
+    var(--t-white) 40%,
+    var(--t-white) 60%,
+    var(--t-pink) 60%,
+    var(--t-pink) 80%,
+    var(--t-blue) 80%,
+    var(--t-blue) 100%
+  );
+
+  --b-pink: #c1357e;
+  --b-purple: #675997;
+  --b-blue: #0655a9;
+
+  --bi: linear-gradient(
+    var(--b-pink) 0%,
+    var(--b-pink) 40%,
+    var(--b-purple) 40%,
+    var(--b-purple) 60%,
+    var(--b-blue) 60%,
+    var(--b-blue) 100%
+  );
+
+  --p-magenta: #fa5e5b;
+  --p-yellow: #ffba00;
+  --p-blue: #4fa5c2;
+
+  --pan: linear-gradient(
+    var(--p-magenta) 0%,
+    var(--p-magenta) 33.332%,
+    var(--p-yellow) 33.332%,
+    var(--p-yellow) 66.667%,
+    var(--p-blue) 66.667%,
+    var(--p-blue) 100%
+  );
+
+  --a-black: #222222;
+  --a-gray: #a2a2a2;
+  --a-white: #f9fbfc;
+  --a-purple: #a148a2;
+
+  --asex: linear-gradient(
+    var(--a-black) 0%,
+    var(--a-black) 20%,
+    var(--a-gray) 20%,
+    var(--a-gray) 40%,
+    var(--a-white) 40%,
+    var(--a-white) 60%,
+    var(--a-purple) 60%,
+    var(--a-purple) 80%,
+    var(--a-black) 80%,
+    var(--a-black) 100%
+  );
+
+  --nb-black: #222222;
+  --nb-yellow: #f7e45a;
+  --nb-white: #f9fbfc;
+  --nb-purple: #675997;
+
+  --nb: linear-gradient(
+    var(--nb-yellow) 0%,
+    var(--nb-yellow) 25%,
+    var(--nb-white) 25%,
+    var(--nb-white) 50%,
+    var(--nb-purple) 50%,
+    var(--nb-purple) 75%,
+    var(--nb-black) 75%,
+    var(--nb-black) 100%
+  );
+
+  --q-black: #000000;
+  --q-cornflower: #99d9eb;
+  --q-azure: #00a2e6;
+  --q-lime: #b4e637;
+  --q-white: #fff;
+  --q-yellow: #ffba00;
+  --q-magenta: #fd6666;
+  --q-pink: #ffafc8;
+  --queer: linear-gradient(
+    var(--q-black) 0%,
+    var(--q-black) 8%,
+    var(--q-cornflower) 8%,
+    var(--q-cornflower) 20%,
+    var(--q-azure) 20%,
+    var(--q-azure) 32%,
+    var(--q-lime) 32%,
+    var(--q-lime) 44%,
+    var(--q-white) 44%,
+    var(--q-white) 56%,
+    var(--q-yellow) 56%,
+    var(--q-yellow) 68%,
+    var(--q-magenta) 68%,
+    var(--q-magenta) 80%,
+    var(--q-pink) 80%,
+    var(--q-pink) 92%,
+    var(--q-black) 92%,
+    var(--q-black) 100%
+  );
+
+  --gaymen-darkgreen: #007c6b;
+  --gaymen-palegreen: #40a4a5;
+  --gaymen-litegreen: #59c8d2;
+  --gaymen-center: #f0efff;
+  --gaymen-liteblue: #7aade0;
+  --gaymen-paleblue: #0b83c9;
+  --gaymen-darkblue: #04336f;
+  --gaymen: linear-gradient(
+    var(--gaymen-darkgreen) 0%,
+    var(--gaymen-darkgreen) 14.28%,
+    var(--gaymen-palegreen) 14.28%,
+    var(--gaymen-palegreen) 28.58%,
+    var(--gaymen-litegreen) 28.58%,
+    var(--gaymen-litegreen) 42.87%,
+    var(--gaymen-center) 42.87%,
+    var(--gaymen-center) 57.16%,
+    var(--gaymen-liteblue) 57.16%,
+    var(--gaymen-liteblue) 71.45%,
+    var(--gaymen-paleblue) 71.45%,
+    var(--gaymen-paleblue) 85.74%,
+    var(--gaymen-darkblue) 85.74%,
+    var(--gaymen-darkblue) 100%
+  );
+
+  --gf-pink: #f39ec1;
+  --gf-white: #ffffff;
+  --gf-purple: #a74a95;
+  --gf-black: #000000;
+  --gf-blue: #0068b5;
+  --genderfluid: linear-gradient(
+    var(--gf-pink) 0%,
+    var(--gf-pink) 20%,
+    var(--gf-white) 20%,
+    var(--gf-white) 40%,
+    var(--gf-purple) 40%,
+    var(--gf-purple) 60%,
+    var(--gf-black) 60%,
+    var(--gf-black) 80%,
+    var(--gf-blue) 80%,
+    var(--gf-blue) 100%
+  );
+
+  --ag-white: #fff;
+  --ag-green: #b8f58a;
+  --ag-grey: #b9b9b9;
+  --ag-black: #000000;
+  --agender: linear-gradient(
+    var(--ag-black) 0%,
+    var(--ag-black) 14.28%,
+    var(--ag-grey) 14.28%,
+    var(--ag-grey) 28.58%,
+    var(--ag-white) 28.58%,
+    var(--ag-white) 42.87%,
+    var(--ag-green) 42.87%,
+    var(--ag-green) 57.16%,
+    var(--ag-white) 57.16%,
+    var(--ag-white) 71.45%,
+    var(--ag-grey) 71.45%,
+    var(--ag-grey) 85.74%,
+    var(--ag-black) 85.74%,
+    var(--ag-black) 100%
+  );
+
+  --i-yellow: #ffba00;
+  --i-indigo: #675997;
+
+  --intersex: repeating-radial-gradient(
+    circle at center,
+    var(--i-yellow),
+    var(--i-yellow) 10%,
+    var(--i-indigo) 10%,
+    var(--i-indigo) 15%,
+    var(--i-yellow) 15%,
+    var(--i-yellow) 100%
+  );
+
+  --lesbian-darkorange: #d82c01;
+  --lesbian-paleorange: #f1752c;
+  --lesbian-liteorange: #ff985b;
+  --lesbian-center: #ffffff;
+  --lesbian-litemagenta: #d162a3;
+  --lesbian-palemagenta: #b75591;
+  --lesbian-darkmagenta: #a60260;
+  --lesbian: linear-gradient(
+    var(--lesbian-darkorange) 0%,
+    var(--lesbian-darkorange) 14.28%,
+    var(--lesbian-paleorange) 14.28%,
+    var(--lesbian-paleorange) 28.58%,
+    var(--lesbian-liteorange) 28.58%,
+    var(--lesbian-liteorange) 42.87%,
+    var(--lesbian-center) 42.87%,
+    var(--lesbian-center) 57.16%,
+    var(--lesbian-litemagenta) 57.16%,
+    var(--lesbian-litemagenta) 71.45%,
+    var(--lesbian-palemagenta) 71.45%,
+    var(--lesbian-palemagenta) 85.74%,
+    var(--lesbian-darkmagenta) 85.74%,
+    var(--lesbian-darkmagenta) 100%
+  );
+
+  --polyamorous-yellow: #ffea6f;
+  --polyamorous-blue: #14abea;
+  --polyamorous-red: #fd2142;
+  --polyamorous-black: #181919;
+  --polyamorous: no-repeat
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='40' width='40'%3E%3Cstyle%3E.y%7Bfill:%23ffea6f%7D%3C/style%3E%3Ctext x='0' y='30' font-size='40' class='y'%3Eπ%3C/text%3E%3C/svg%3E")
+      center center,
+    linear-gradient(
+      var(--polyamorous-blue) 0%,
+      var(--polyamorous-blue) 40%,
+      var(--polyamorous-red) 40%,
+      var(--polyamorous-red) 60%,
+      var(--polyamorous-black) 60%,
+      var(--polyamorous-black) 100%
+    );
+
+  --omni-pink: #ff92c5;
+  --omni-fuschia: #ff4ab3;
+  --omni-violet: #24033c;
+  --omni-softindigo: #5855f8;
+  --omni-periwinkle: #7b9dfb;
+  --omni: linear-gradient(
+    var(--omni-pink) 0%,
+    var(--omni-pink) 20%,
+    var(--omni-fuschia) 20%,
+    var(--omni-fuschia) 40%,
+    var(--omni-violet) 40%,
+    var(--omni-violet) 60%,
+    var(--omni-softindigo) 60%,
+    var(--omni-softindigo) 80%,
+    var(--omni-periwinkle) 80%,
+    var(--omni-periwinkle) 100%
+  );
+
+  --p-magenta: #ea38aa;
+  --p-green: #44cc70;
+  --p-blue: #2188e8;
+  --polysexual-image: linear-gradient(
+    var(--p-magenta) 0%,
+    var(--p-magenta) 33.332%,
+    var(--p-green) 33.332%,
+    var(--p-green) 66.667%,
+    var(--p-blue) 66.667%,
+    var(--p-blue) 100%
+  );
+
+  --aroace-gold: #e68222;
+  --aroace-yellow: #eec62d;
+  --aroace-white: #fff;
+  --aroace-aqua: #49a6d5;
+  --aroace-navy: #1c304b;
+  --aroace: linear-gradient(
+    var(--aroace-gold) 0%,
+    var(--aroace-gold) 20%,
+    var(--aroace-yellow) 20%,
+    var(--aroace-yellow) 40%,
+    var(--aroace-white) 40%,
+    var(--aroace-white) 60%,
+    var(--aroace-aqua) 60%,
+    var(--aroace-aqua) 80%,
+    var(--aroace-navy) 80%,
+    var(--aroace-navy) 100%
+  );
+
+  --gq-lavender: #b390d6;
+  --gq-white: #fff;
+  --gq-olive: #5d8437;
+  --genderqueer: linear-gradient(
+    var(--gq-lavender) 0%,
+    var(--gq-lavender) 33.332%,
+    var(--gq-white) 33.332%,
+    var(--gq-white) 66.667%,
+    var(--gq-olive) 66.667%,
+    var(--gq-olive) 100%
+  );
+}
