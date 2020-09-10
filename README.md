@@ -4,7 +4,6 @@
 
 Some simple CSS gradients to add some pride to your stylesheets. Color values are slightly saturated for preference. Massively WIP.
 
-
 ## Installation
 
 ```
@@ -22,26 +21,30 @@ or from a CDN
 Recommend you use [PostCSS](https://github.com/postcss/postcss) and [postcss-import](https://github.com/postcss/postcss-import). But there's a processed file available from a [CDN](https://unpkg.com/lgbtq.css@1.0.1/lgbtq.css) and in the [repo](https://github.com/charlespeters/lgbtq.css/blob/master/lgbtq.css).
 
 ```css
-@import 'lgbtq.css';
+@import "~lgbtq.css";
 ```
 
-The colors are saturated for my personal preference and if you'd like to modify them in your build, override them; you could do something like this:
+### Class Names
 
-```css
-:root {
-  --b-blue: #414EF9;
-}
-```
-
-### Using in HTML
-
-After you've installed the project you can use it in your HTML or templates like this:
-
-```markup
-<body class="c-banner--[gay,bi,trans,pan,asex,nonb]">
-```
-
-All the variables are listed in [index.css](https://github.com/charlespeters/lgbtq.css/blob/master/index.css)
+| Class Name    | Flag                    |
+| ------------- | ----------------------- |
+| `Gay`         | Gay Pride               |
+| `BiPlus`      | Bisexual Pride          |
+| `Trans`       | Transgender Pride       |
+| `NonBinary`   | Non-binary Pride        |
+| `Asexual`     | Asexual Pride           |
+| `Pansexual`   | Pansexual Pride         |
+| `Queer`       | Queer Pride             |
+| `GayMale`     | Gay Male Pride          |
+| `Lesbian`     | Lesbian Pride           |
+| `Intersex`    | Intersex Pride          |
+| `GenderFluid` | Genderfluid Pride       |
+| `Agender`     | Agender Pride           |
+| `Polyamorous` | Polyamorous Pride       |
+| `Omnisexual`  | Omnisexual Pride        |
+| `Polysexual`  | Polysexual Pride        |
+| `AroAce`      | Aromantic Asexual Pride |
+| `Genderqueer` | Genderqueer Pride       |
 
 ## Setup for LGBTQ.css
 
