@@ -32,7 +32,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => {
           rel="noopener"
           target="_blank"
           className="block mr-4"
-          href="https://github.com/charliewilco"
+          href="https://github.com/charliewilco/lgbtq.css"
         >
           <FiGithub size={24} />
         </a>
