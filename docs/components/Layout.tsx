@@ -62,6 +62,32 @@ const Layout: React.FC<{ title: string }> = ({
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="icon" href={link} />
+        <meta name="description" content="Pride flags made with pure CSS" />
+        <meta name="title" content={title} />
+        <meta name="author" content="Charlie Peters" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://lgbtq-css.vercel.app/" />
+        <meta property="og:title" content={title} />
+        <meta
+          property="og:description"
+          content="Pride flags made with pure CSS"
+        />
+        <meta
+          property="og:image"
+          content="https://lgbtq-css.vercel.app/og.png"
+        />
+        <meta property="twitter:url" content="https://lgbtq-css.vercel.app/" />
+        <meta property="twitter:title" content={title} />
+        <meta
+          property="twitter:description"
+          content="Pride flags made with pure CSS"
+        />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:site" content="@charlespeters" />
+        <meta
+          property="twitter:image"
+          content="https://lgbtq-css.vercel.app/og.png"
+        />
       </Head>
 
       <main className="container">{children}</main>
