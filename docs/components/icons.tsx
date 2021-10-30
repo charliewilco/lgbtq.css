@@ -33,3 +33,44 @@ export const GitHub: React.VFC<React.SVGProps<SVGSVGElement>> = (props) => {
     </svg>
   );
 };
+
+
+export const Social: React.VFC = () => {
+  return (
+    <div className="social">
+      <a
+        rel="noopener"
+        target="_blank"
+        href="https://github.com/charliewilco/lgbtq.css"
+      >
+        <GitHub width={24} height={24} />
+      </a>
+      <a
+        rel="noopener"
+        target="_blank"
+        href="https://twitter.com/charlespeters"
+      >
+        <Twitter width={24} height={24} />
+      </a>
+      <style jsx>{`
+        .social {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .social > a {
+          display: block;
+          color: #000;
+          margin: 0 1rem;
+        }
+
+        @media (prefers-color-scheme: dark) {
+          .social > a {
+            color: #fff;
+          }
+        }
+      `}</style>
+    </div>
+  );
+};
