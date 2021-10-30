@@ -9,15 +9,17 @@
   ],
   "scripts": {
     "styles": "postcss src/index.css -o dist/lgbtq.css",
-    "prepublish": "yarn styles"
+    "styles:prod": "postcss dist/lgbtq.css -u cssnano -o dist/lgbtq.min.css",
+    "prepublish": "yarn styles && yarn styles:prod"
   },
-  "author": "charles peters <charlespeters42@gmail.com>",
+  "author": "Charlie <charlespeters42@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "postcss-cli": "^7.1.1",
-    "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0",
-    "postcss-reporter": "^6.0.1"
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "postcss-cli": "^9.0.1",
+    "postcss-import": "^14.0.2",
+    "postcss-reporter": "^7.0.4"
   },
   "browserslist": [
     "last 3 versions",
@@ -28,7 +30,7 @@
     "map": false,
     "plugins": {
       "postcss-import": {},
-      "postcss-preset-env": {},
+      "autoprefixer": {},
       "postcss-reporter": {
         "clearMessages": true
       }
@@ -43,5 +45,8 @@
   "bugs": {
     "url": "https://github.com/charlespeters/lgbtq.css/issues"
   },
-  "homepage": "https://github.com/charlespeters/lgbtq.css#readme"
+  "homepage": "https://github.com/charlespeters/lgbtq.css#readme",
+  "dependencies": {
+    "cssnano": "^5.0.8"
+  }
 }
