@@ -6,7 +6,7 @@ interface IFlagDatumProps {
 const FlagDatum: React.FC<IFlagDatumProps> = (props) => {
   return (
     <figure>
-      <div className={props.className} role="img" />
+      <object className={props.className} role="img" />
       {props.label ? <figcaption>{props.label}</figcaption> : null}
       <style jsx>{`
         [role="img"] {
@@ -58,20 +58,20 @@ export const Flags: React.FC = () => {
       <FlagDatum className="Genderqueer" label="Genderqueer Pride" />
       <style jsx>
         {`
-          .grid {
+          div {
             display: grid;
             gap: 1rem;
             grid-template-columns: repeat(2, minmax(0, 1fr));
           }
 
           @media (min-width: 768px) {
-            .grid {
+            div {
               grid-template-columns: repeat(4, minmax(0, 1fr));
             }
           }
 
           @media (min-width: 1024px) {
-            .grid {
+            div {
               grid-template-columns: repeat(6, minmax(0, 1fr));
             }
           }
