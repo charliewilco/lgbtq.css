@@ -99,11 +99,12 @@ const IndexPage: NextPage = () => {
       <style jsx>{`
         h1 {
           font-family: var(--sans-serif);
-          margin: 0 auto 1rem;
+          margin: 0 auto;
           font-weight: 900;
           font-size: 3.75rem;
           text-align: center;
           max-width: fit-content;
+          line-height: 1.3;
           display: block;
         }
 
@@ -115,10 +116,12 @@ const IndexPage: NextPage = () => {
         }
 
         header {
+          padding-top: 3rem;
           text-align: center;
         }
 
         header p {
+          text-transform: capitalize;
           max-width: unset !important;
         }
 
@@ -181,6 +184,14 @@ const IndexPage: NextPage = () => {
             hsl(199, 79%, 37%),
             hsl(254, 26%, 47%)
           );
+        }
+
+        footer {
+          text-align: center;
+        }
+
+        footer small {
+          opacity: 0.75;
         }
 
         @media (min-width: 768px) {
