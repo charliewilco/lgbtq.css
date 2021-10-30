@@ -1,29 +1,82 @@
-import { ContentArea, ContentTitle } from "./content";
-import { Sample } from "./sample-flag";
+interface IFlagDatumProps {
+  className: string;
+  label?: string;
+}
+
+const FlagDatum: React.FC<IFlagDatumProps> = (props) => {
+  return (
+    <figure>
+      <div className={props.className} role="img" />
+      {props.label ? <figcaption>{props.label}</figcaption> : null}
+      <style jsx>{`
+        [role="img"] {
+          box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%),
+            0 2px 4px -1px rgb(0 0 0 / 6%);
+          width: 100%;
+          height: 6rem;
+          border-radius: 0.25rem;
+        }
+
+        figure {
+          margin: 0;
+        }
+
+        figcaption {
+          text-align: center;
+          padding-top: 0.25rem;
+          font-family: var(--monospace);
+          font-weight: 700;
+          text-transform: uppercase;
+          opacity: 0.75;
+          font-size: 0.75rem;
+          letter-spacing: 0.2rem;
+        }
+      `}</style>
+    </figure>
+  );
+};
 
 export const Flags: React.FC = () => {
   return (
-    <ContentArea className="col-span-12 mb-16">
-      <ContentTitle>Flags</ContentTitle>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
-        <Sample className="Gay" label="Gay Pride" />
-        <Sample className="BiPlus" label="Bisexual Pride" />
-        <Sample className="Trans" label="Transgender Pride" />
-        <Sample className="NonBinary" label="Non-binary Pride" />
-        <Sample className="Asexual" label="Asexual Pride" />
-        <Sample className="Pansexual" label="Pansexual Pride" />
-        <Sample className="Queer" label="Queer Pride" />
-        <Sample className="GayMale" label="Gay Male Pride" />
-        <Sample className="Lesbian" label="Lesbian Pride" />
-        <Sample className="Intersex" label="Intersex Pride" />
-        <Sample className="GenderFluid" label="Genderfluid Pride" />
-        <Sample className="Agender" label="Agender Pride" />
-        <Sample className="Polyamorous" label="Polyamorous Pride" />
-        <Sample className="Omnisexual" label="Omnisexual Pride" />
-        <Sample className="Polysexual" label="Polysexual Pride" />
-        <Sample className="AroAce" label="Aromantic Asexual Pride" />
-        <Sample className="Genderqueer" label="Genderqueer Pride" />
-      </div>
-    </ContentArea>
+    <div className="grid">
+      <FlagDatum className="Gay" label="Gay Pride" />
+      <FlagDatum className="BiPlus" label="Bisexual Pride" />
+      <FlagDatum className="Trans" label="Transgender Pride" />
+      <FlagDatum className="NonBinary" label="Non-binary Pride" />
+      <FlagDatum className="Asexual" label="Asexual Pride" />
+      <FlagDatum className="Pansexual" label="Pansexual Pride" />
+      <FlagDatum className="Queer" label="Queer Pride" />
+      <FlagDatum className="GayMale" label="Gay Male Pride" />
+      <FlagDatum className="Lesbian" label="Lesbian Pride" />
+      <FlagDatum className="Intersex" label="Intersex Pride" />
+      <FlagDatum className="GenderFluid" label="Genderfluid Pride" />
+      <FlagDatum className="Agender" label="Agender Pride" />
+      <FlagDatum className="Polyamorous" label="Polyamorous Pride" />
+      <FlagDatum className="Omnisexual" label="Omnisexual Pride" />
+      <FlagDatum className="Polysexual" label="Polysexual Pride" />
+      <FlagDatum className="AroAce" label="Aromantic Asexual Pride" />
+      <FlagDatum className="Genderqueer" label="Genderqueer Pride" />
+      <style jsx>
+        {`
+          .grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+
+          @media (min-width: 768px) {
+            .grid {
+              grid-template-columns: repeat(4, minmax(0, 1fr));
+            }
+          }
+
+          @media (min-width: 1024px) {
+            .grid {
+              grid-template-columns: repeat(6, minmax(0, 1fr));
+            }
+          }
+        `}
+      </style>
+    </div>
   );
 };
