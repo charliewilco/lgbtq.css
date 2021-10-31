@@ -4,9 +4,10 @@ interface IFlagDatumProps {
 }
 
 const FlagDatum: React.FC<IFlagDatumProps> = (props) => {
+  const altText = `Pride flag demo for ${props.className}`;
   return (
     <figure>
-      <object className={props.className} role="img" />
+      <object aria-label={altText} className={props.className} role="img" />
       {props.label ? <figcaption>{props.label}</figcaption> : null}
       <style jsx>{`
         [role="img"] {

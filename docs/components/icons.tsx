@@ -34,21 +34,22 @@ export const GitHub: React.VFC<React.SVGProps<SVGSVGElement>> = (props) => {
   );
 };
 
-
 export const Social: React.VFC = () => {
   return (
     <div className="social">
       <a
-        rel="noopener"
+        rel="noreferrer"
         target="_blank"
         href="https://github.com/charliewilco/lgbtq.css"
+        title="GitHub link to project"
       >
         <GitHub width={24} height={24} />
       </a>
       <a
-        rel="noopener"
+        rel="noreferrer"
         target="_blank"
         href="https://twitter.com/charlespeters"
+        title="Twitter link to @charlespeters"
       >
         <Twitter width={24} height={24} />
       </a>

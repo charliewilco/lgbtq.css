@@ -70,7 +70,7 @@ const IndexPage: NextPage = () => {
         </p>
         <p></p>
 
-        <p>If you'd like to add one feel free to open a PR on GitHub.</p>
+        <p>If you&apos;d like to add one feel free to open a PR on GitHub.</p>
       </section>
       <section>
         <h2>Usage</h2>
@@ -80,11 +80,11 @@ const IndexPage: NextPage = () => {
         </pre>
         <p>Add it in your CSS:</p>
         <pre>
-          <code>@import "~lgbtq.css";</code>
+          <code>@import &quot;~lgbtq.css&quot;;</code>
         </pre>
         <p>
           Then use the class that represents the pride flag you want to use.
-          Applying the class to an element will change it's background.
+          Applying the class to an element will change it&apos;s background.
         </p>
       </section>
       <section className="full">
