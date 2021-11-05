@@ -5,23 +5,24 @@ import { Flags } from "../components/flags";
 import { UsageTable } from "../components/usage";
 import { Social } from "../components/icons";
 
-export const EMOJI = "🏳️‍🌈";
 
-function getEmojiLink(emoji: string): string {
-  return `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>${emoji}</text></svg>`;
+function getEmojiLink(): string {
+  return `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏳️‍🌈</text></svg>`;
 }
 
 // POC Pride
 
 const IndexPage: NextPage = () => {
   const year = useMemo(() => new Date().getFullYear(), []);
+  const favicon = getEmojiLink()
   return (
     <article>
       <Head>
         <title>LGBTQ.css</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" href={getEmojiLink(EMOJI)} />
+        <link rel="shortcut icon" href="/lgbtq-192.png" />
+        <link rel="icon" href={favicon} />
         <meta name="description" content="Pride flags made with pure CSS" />
         <meta name="title" content="LGBTQ.css" />
         <meta name="author" content="Charlie Peters" />
@@ -50,9 +51,7 @@ const IndexPage: NextPage = () => {
         />
       </Head>
       <header className="full">
-        <span role="img" aria-label="Rainbow Emoji">
-          {EMOJI}
-        </span>
+        <span role="img" aria-label="Rainbow Emoji">🏳️‍🌈</span>
         <h1 className="title">LGBTQ.css</h1>
         <p>adding some pride to your stylesheets</p>
       </header>
@@ -133,7 +132,7 @@ const IndexPage: NextPage = () => {
 
         pre {
           margin-bottom: 1rem;
-          background: #000;
+          background: #151515;
           color: #fff;
           padding: 0.5rem;
           border-radius: 0.25rem;

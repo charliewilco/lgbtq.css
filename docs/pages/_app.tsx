@@ -59,7 +59,7 @@ const CustomApp: React.FC<AppProps> = ({ Component, pageProps }) => {
 
         @media (prefers-color-scheme: dark) {
           :root {
-            --bg: #151515;
+            --bg: #050505;
             --fg: #ece9f1;
           }
         }
