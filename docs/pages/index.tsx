@@ -5,7 +5,6 @@ import { Flags } from "../components/flags";
 import { UsageTable } from "../components/usage";
 import { Social } from "../components/icons";
 
-
 function getEmojiLink(): string {
   return `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏳️‍🌈</text></svg>`;
 }
@@ -14,7 +13,7 @@ function getEmojiLink(): string {
 
 const IndexPage: NextPage = () => {
   const year = useMemo(() => new Date().getFullYear(), []);
-  const favicon = getEmojiLink()
+  const favicon = getEmojiLink();
   return (
     <article>
       <Head>
@@ -44,14 +43,16 @@ const IndexPage: NextPage = () => {
           content="Pride flags made with pure CSS"
         />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:site" content="@charlespeters" />
+        <meta property="twitter:site" content="@_charliewilco" />
         <meta
           property="twitter:image"
           content="https://lgbtq-css.vercel.app/og.png"
         />
       </Head>
       <header className="full">
-        <span role="img" aria-label="Rainbow Emoji">🏳️‍🌈</span>
+        <span role="img" aria-label="Rainbow Emoji">
+          🏳️‍🌈
+        </span>
         <h1 className="title">LGBTQ.css</h1>
         <p>adding some pride to your stylesheets</p>
       </header>
@@ -203,4 +204,5 @@ const IndexPage: NextPage = () => {
   );
 };
 
+export default IndexPage;
 export default IndexPage;

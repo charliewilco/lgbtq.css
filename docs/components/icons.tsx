@@ -48,8 +48,8 @@ export const Social: React.VFC = () => {
       <a
         rel="noreferrer"
         target="_blank"
-        href="https://twitter.com/charlespeters"
-        title="Twitter link to @charlespeters"
+        href="https://twitter.com/_charliewilco"
+        title="Twitter link to @_charliewilco"
       >
         <Twitter width={24} height={24} />
       </a>
