@@ -4,7 +4,12 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head />
+        <Head>
+          <link
+            rel="stylesheet"
+            href="https://unpkg.com/lgbtq.css@2.0.7/dist/lgbtq.css"
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
