@@ -1,52 +1,37 @@
 {
-  "name": "lgbtq.css",
-  "version": "2.0.7",
-  "description": "Add some Pride to your stylesheets",
-  "main": "./dist/lgbtq.css",
-  "browser": "./dist/lgbtq.css",
-  "files": [
-    "./dist/lgbtq.css"
+  "private": true,
+  "workspaces": [
+    "lgbtq",
+    "docs"
   ],
-  "scripts": {
-    "styles": "postcss src/index.css -o dist/lgbtq.css",
-    "styles:prod": "postcss dist/lgbtq.css -u cssnano -o dist/lgbtq.min.css",
-    "prepublish": "yarn styles && yarn styles:prod"
-  },
-  "author": "Charlie <charlespeters42@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.3.11",
-    "postcss-cli": "^9.0.1",
-    "postcss-import": "^14.0.2",
-    "postcss-reporter": "^7.0.4"
+    "prettier": "^2.5.1",
+    "turbo": "latest"
   },
-  "browserslist": [
-    "last 3 versions",
-    "> 5%",
-    "ff >= 10"
-  ],
-  "postcss": {
-    "map": false,
-    "plugins": {
-      "postcss-import": {},
-      "autoprefixer": {},
-      "postcss-reporter": {
-        "clearMessages": true
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --no-cache --parallel --continue",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "turbo": {
+    "pipeline": {
+      "build": {
+        "outputs": [
+          "dist/**",
+          ".next/**",
+          "public/dist/**"
+        ],
+        "dependsOn": [
+          "^build"
+        ]
+      },
+      "lint": {
+        "outputs": []
+      },
+      "dev": {
+        "cache": false
       }
     }
-  },
-  "repository": "charliewilco/lgbtq.css",
-  "keywords": [
-    "pride",
-    "css",
-    "gradients"
-  ],
-  "bugs": {
-    "url": "https://github.com/charlespeters/lgbtq.css/issues"
-  },
-  "homepage": "https://github.com/charlespeters/lgbtq.css#readme",
-  "dependencies": {
-    "cssnano": "^5.0.8"
   }
 }

@@ -205,4 +205,3 @@ const IndexPage: NextPage = () => {
 };
 
 export default IndexPage;
-export default IndexPage;
