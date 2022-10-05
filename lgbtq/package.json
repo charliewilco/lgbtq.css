@@ -1,51 +1,49 @@
 {
-  "name": "lgbtq.css",
-  "version": "2.0.7",
-  "description": "Add some Pride to your stylesheets",
-  "main": "./dist/lgbtq.css",
-  "browser": "./dist/lgbtq.min.css",
-  "files": [
-    "./dist/lgbtq.css"
-  ],
-  "scripts": {
-    "styles": "postcss src/index.css -o dist/lgbtq.css",
-    "styles:prod": "postcss dist/lgbtq.css -u cssnano -o dist/lgbtq.min.css",
-    "prepublish": "yarn build",
-    "build": "yarn styles && yarn styles:prod"
-  },
-  "author": "Charlie <charlespeters42@gmail.com>",
-  "license": "MIT",
-  "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "cssnano": "^5.0.14",
-    "postcss": "^8.4.5",
-    "postcss-cli": "^9.1.0",
-    "postcss-import": "^14.0.2",
-    "postcss-reporter": "^7.0.4"
-  },
-  "browserslist": [
-    "last 3 versions",
-    "> 5%",
-    "ff >= 10"
-  ],
-  "postcss": {
-    "map": false,
-    "plugins": {
-      "postcss-import": {},
-      "autoprefixer": {},
-      "postcss-reporter": {
-        "clearMessages": true
-      }
-    }
-  },
-  "repository": "charliewilco/lgbtq.css",
-  "keywords": [
-    "pride",
-    "css",
-    "gradients"
-  ],
-  "bugs": {
-    "url": "https://github.com/charlespeters/lgbtq.css/issues"
-  },
-  "homepage": "https://github.com/charlespeters/lgbtq.css#readme"
+	"name": "lgbtq.css",
+	"version": "2.0.7",
+	"description": "Add some Pride to your stylesheets",
+	"main": "./dist/lgbtq.css",
+	"browser": "./dist/lgbtq.min.css",
+	"files": [
+		"./dist/lgbtq.css"
+	],
+	"scripts": {
+		"prepublish": "npm run build",
+		"build": "postcss src/index.css -o dist/lgbtq.css && postcss dist/lgbtq.css -u cssnano -o dist/lgbtq.min.css"
+	},
+	"author": "Charlie <charlespeters42@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"autoprefixer": "^10.4.12",
+		"cssnano": "^5.1.13",
+		"postcss": "^8.4.17",
+		"postcss-cli": "^10.0.0",
+		"postcss-import": "^15.0.0",
+		"postcss-reporter": "^7.0.5"
+	},
+	"browserslist": [
+		"last 3 versions",
+		"> 5%",
+		"ff >= 10"
+	],
+	"postcss": {
+		"map": false,
+		"plugins": {
+			"postcss-import": {},
+			"autoprefixer": {},
+			"postcss-reporter": {
+				"clearMessages": true
+			}
+		}
+	},
+	"repository": "charliewilco/lgbtq.css",
+	"keywords": [
+		"pride",
+		"css",
+		"gradients"
+	],
+	"bugs": {
+		"url": "https://github.com/charlespeters/lgbtq.css/issues"
+	},
+	"homepage": "https://github.com/charlespeters/lgbtq.css#readme"
 }
