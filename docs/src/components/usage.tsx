@@ -1,4 +1,4 @@
-export const UsageTable: React.FC = () => {
+export const UsageTable = () => {
 	return (
 		<div>
 			<aside>

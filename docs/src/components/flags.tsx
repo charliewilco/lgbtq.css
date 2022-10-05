@@ -3,7 +3,7 @@ interface IFlagDatumProps {
 	label?: string;
 }
 
-const FlagDatum: React.FC<IFlagDatumProps> = (props) => {
+const FlagDatum = (props: IFlagDatumProps) => {
 	const altText = `Pride flag demo for ${props.className}`;
 	return (
 		<figure>
@@ -36,7 +36,7 @@ const FlagDatum: React.FC<IFlagDatumProps> = (props) => {
 	);
 };
 
-export const Flags: React.FC = () => {
+export const Flags = () => {
 	return (
 		<div className="grid">
 			<FlagDatum className="Gay" label="Gay Pride" />

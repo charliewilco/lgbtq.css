@@ -7,13 +7,16 @@
 	],
 	"devDependencies": {
 		"prettier": "^2.7.1",
+		"pretty-quick": "^3.1.2",
+		"husky": "^8.0.1",
 		"turbo": "^1.5.5"
 	},
 	"scripts": {
+		"prepare": "husky install",
 		"build": "turbo build",
 		"dev": "turbo dev --no-cache --parallel --continue",
 		"lint": "turbo lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+		"format": "pretty-quick --staged"
 	},
 	"prettier": {
 		"printWidth": 85,
