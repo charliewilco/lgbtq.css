@@ -1,67 +1,67 @@
 .Gay {
-  background-image: var(--gay);
+	background-image: var(--gay);
 }
 
 .Trans {
-  background-image: var(--trans);
+	background-image: var(--trans);
 }
 
 .BiPlus {
-  background-image: var(--bi);
+	background-image: var(--bi);
 }
 
 .Pansexual {
-  background-image: var(--pan);
+	background-image: var(--pan);
 }
 
 .Asexual {
-  background-image: var(--asex);
+	background-image: var(--asex);
 }
 
 .NonBinary {
-  background-image: var(--nb);
+	background-image: var(--nb);
 }
 
 .Queer {
-  background-image: var(--queer);
+	background-image: var(--queer);
 }
 
 .GayMale {
-  background-image: var(--gaymen);
+	background-image: var(--gaymen);
 }
 
 .GenderFluid {
-  background-image: var(--genderfluid);
+	background-image: var(--genderfluid);
 }
 
 .Agender {
-  background-image: var(--agender);
+	background-image: var(--agender);
 }
 
 .Intersex {
-  background-image: var(--intersex);
+	background-image: var(--intersex);
 }
 
 .Lesbian {
-  background-image: var(--lesbian);
+	background-image: var(--lesbian);
 }
 
 .Polyamorous {
-  background: var(--polyamorous);
+	background: var(--polyamorous);
 }
 
 .Omnisexual {
-  background: var(--omni);
+	background: var(--omni);
 }
 
 .Polysexual {
-  background: var(--polysexual-image);
+	background: var(--polysexual-image);
 }
 
 .AroAce {
-  background: var(--aroace);
+	background: var(--aroace);
 }
 
 .Genderqueer {
-  background: var(--genderqueer);
+	background: var(--genderqueer);
 }
