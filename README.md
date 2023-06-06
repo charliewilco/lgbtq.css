@@ -1,4 +1,4 @@
-![Screenshot of Gradients](./screenshot.png)
+![Screenshot of Gradients](./screenshot-2.png)
 
 # LGBTQ.css
 
