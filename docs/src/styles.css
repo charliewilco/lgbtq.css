@@ -33,13 +33,6 @@ code {
 	font-family: var(--monospace);
 }
 
-@media (prefers-color-scheme: dark) {
-	:root {
-		--bg: #050505;
-		--fg: #ece9f1;
-	}
-}
-
 h1 {
 	font-family: var(--sans-serif);
 	margin: 0 auto;
@@ -137,12 +130,6 @@ footer small {
 	opacity: 0.75;
 }
 
-@media (min-width: 768px) {
-	section {
-		grid-column: span 6 / span 6;
-	}
-}
-
 .Usage {
 	display: grid;
 	gap: 2rem;
@@ -174,9 +161,12 @@ td {
 	border: 1px solid rgba(20, 20, 20, 0.25);
 	margin: 0;
 }
+
 td:first-of-type {
-	padding: 0.5rem 1rem;
+	width: 25%;
+	padding: 0.5rem;
 }
+
 td:last-of-type {
 	font-family: var(--sans-serif);
 	padding-left: 0.5rem;
@@ -191,34 +181,10 @@ code {
 	padding: 0.25rem;
 }
 
-@media (min-width: 768px) {
-	.Usage > aside {
-		grid-column: span 6 / span 6;
-	}
-}
-
-@media (prefers-color-scheme: dark) {
-	td {
-		border: 1px solid rgba(247, 250, 252, 0.25);
-	}
-}
-
 .FlagGrid {
 	display: grid;
 	gap: 1rem;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-@media (min-width: 768px) {
-	.FlagGrid {
-		grid-template-columns: repeat(4, minmax(0, 1fr));
-	}
-}
-
-@media (min-width: 1024px) {
-	.FlagGrid {
-		grid-template-columns: repeat(6, minmax(0, 1fr));
-	}
 }
 
 .FlagContainer {
@@ -228,8 +194,8 @@ code {
 .FlagContainer > object[role="img"] {
 	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
 	width: 100%;
-	height: 6rem;
 	border-radius: 0.25rem;
+	aspect-ratio: 16 / 9;
 }
 
 .FlagContainer > figcaption {
@@ -256,7 +222,35 @@ code {
 }
 
 @media (prefers-color-scheme: dark) {
+	:root {
+		--bg: #050505;
+		--fg: #ece9f1;
+	}
+
+	td {
+		border: 1px solid rgba(247, 250, 252, 0.25);
+	}
+
 	.social > a {
 		color: #fff;
+	}
+}
+
+@media (min-width: 768px) {
+	section {
+		grid-column: span 6 / span 6;
+	}
+
+	.Usage > aside {
+		grid-column: span 6 / span 6;
+	}
+	.FlagGrid {
+		grid-template-columns: repeat(4, minmax(0, 1fr));
+	}
+}
+
+@media (min-width: 1024px) {
+	.FlagGrid {
+		grid-template-columns: repeat(6, minmax(0, 1fr));
 	}
 }

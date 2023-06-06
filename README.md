@@ -15,7 +15,7 @@ or from a CDN
 ```html
 <link
 	rel="stylesheet"
-	href="https://unpkg.com/lgbtq.css/lgbtq.css"
+	href="https://unpkg.com/lgbtq.css/dist/lgbtq.css"
 	media="screen"
 	title="LGBTQ.css"
 	charset="utf-8"
