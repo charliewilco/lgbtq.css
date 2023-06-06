@@ -12,11 +12,11 @@
 		"build": "postcss src/index.css -o dist/lgbtq.css && postcss dist/lgbtq.css -u cssnano -o dist/lgbtq.min.css"
 	},
 	"author": "Charlie <charlespeters42@gmail.com>",
-	"license": "MIT",
+	"license": "Unlicense",
 	"devDependencies": {
-		"autoprefixer": "^10.4.12",
-		"cssnano": "^5.1.13",
-		"postcss": "^8.4.17",
+		"autoprefixer": "^10.4.14",
+		"cssnano": "^6.0.1",
+		"postcss": "^8.4.24",
 		"postcss-cli": "^10.0.0",
 		"postcss-import": "^15.0.0",
 		"postcss-reporter": "^7.0.5"
@@ -43,7 +43,7 @@
 		"gradients"
 	],
 	"bugs": {
-		"url": "https://github.com/charlespeters/lgbtq.css/issues"
+		"url": "https://github.com/charliewilco/lgbtq.css/issues"
 	},
-	"homepage": "https://github.com/charlespeters/lgbtq.css#readme"
+	"homepage": "https://github.com/charliewilco/lgbtq.css#readme"
 }
