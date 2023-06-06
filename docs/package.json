@@ -3,12 +3,12 @@
 	"version": "1.0.0",
 	"scripts": {
 		"dev": "parcel src/index.html",
-		"build": "parcel build src/index.html"
+		"build": "parcel build src/index.html && cp src/og.png dist"
 	},
 	"dependencies": {
 		"lgbtq.css": "^2.0.7"
 	},
 	"devDependencies": {
-		"parcel": "^2.8.3"
+		"parcel": "^2.9.1"
 	}
 }

@@ -1,6 +1,8 @@
 dist
 node_modules
 
+!docs/dist/og.png
+
 .turbo
 .parcel-cache
 .vercel
