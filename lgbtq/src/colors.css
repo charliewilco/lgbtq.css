@@ -71,15 +71,13 @@
 
 	--asex: linear-gradient(
 		var(--a-black) 0%,
-		var(--a-black) 20%,
-		var(--a-gray) 20%,
-		var(--a-gray) 40%,
-		var(--a-white) 40%,
-		var(--a-white) 60%,
-		var(--a-purple) 60%,
-		var(--a-purple) 80%,
-		var(--a-black) 80%,
-		var(--a-black) 100%
+		var(--a-black) 25%,
+		var(--a-gray) 25%,
+		var(--a-gray) 50%,
+		var(--a-white) 50%,
+		var(--a-white) 75%,
+		var(--a-purple) 75%,
+		var(--a-purple) 100%
 	);
 
 	--nb-black: #222222;
