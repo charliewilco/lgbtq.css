@@ -229,7 +229,8 @@
 	--polyamorous-blue: #14abea;
 	--polyamorous-red: #fd2142;
 	--polyamorous-black: #181919;
-	--polyamorous: no-repeat
+	--polyamorous:
+		no-repeat
 			url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' height='40' width='40'%3E%3Cstyle%3E.y%7Bfill:%23ffea6f%7D%3C/style%3E%3Ctext x='0' y='30' font-size='40' class='y'%3Eπ%3C/text%3E%3C/svg%3E")
 			center center,
 		linear-gradient(

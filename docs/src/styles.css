@@ -1,10 +1,12 @@
 :root {
 	--bg: #ece9f1;
 	--fg: #151515;
-	--monospace: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas,
-		Liberation Mono, monospace;
-	--sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica,
-		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--monospace:
+		ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono,
+		monospace;
+	--sans-serif:
+		system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, sans-serif,
+		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 * {
@@ -192,7 +194,9 @@ code {
 }
 
 .FlagContainer > object[role="img"] {
-	box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+	box-shadow:
+		0 4px 6px -1px rgb(0 0 0 / 10%),
+		0 2px 4px -1px rgb(0 0 0 / 6%);
 	width: 100%;
 	border-radius: 0.25rem;
 	aspect-ratio: 16 / 9;

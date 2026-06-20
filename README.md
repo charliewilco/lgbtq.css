@@ -56,11 +56,11 @@ Recommend you use [PostCSS](https://github.com/postcss/postcss) and [postcss-imp
 
 ![PostCSS Logo](http://postcss.org/_/web_modules/Hero/postcss.svg)
 
-This project uses [PostCSS](http://postcss.org/) and [postcss-cli](https://github.com/postcss/postcss-cli), check out the [config](https://github.com/charliewilco/lgbtq.css/blob/main/package.json).
+This project uses [PostCSS](http://postcss.org/) and [postcss-cli](https://github.com/postcss/postcss-cli), check out the [config](https://github.com/charliewilco/lgbtq.css/blob/main/lgbtq/postcss.config.cjs).
 
 1. Clone the repo `git clone https://github.com/charliwilco/lgbtq.css.git`
 2. Install Node `brew install node`
-3. In the root of the project run `yarn && yarn dev`
+3. In the root of the project run `npm install && npm run dev`
 4. Write some CSS
 
 ![CSS](http://i.giphy.com/nArBQosm5nXdm.gif)

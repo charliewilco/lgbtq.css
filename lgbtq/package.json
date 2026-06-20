@@ -9,33 +9,23 @@
 	],
 	"scripts": {
 		"prepublish": "npm run build",
-		"build": "postcss src/index.css -o dist/lgbtq.css && postcss dist/lgbtq.css -u cssnano -o dist/lgbtq.min.css"
+		"build": "postcss src/index.css -o dist/lgbtq.css && postcss dist/lgbtq.css --env production -o dist/lgbtq.min.css"
 	},
 	"author": "Charlie <charlespeters42@gmail.com>",
 	"license": "Unlicense",
 	"devDependencies": {
-		"autoprefixer": "^10.4.14",
-		"cssnano": "^6.0.1",
-		"postcss": "^8.4.24",
-		"postcss-cli": "^10.0.0",
-		"postcss-import": "^15.0.0",
-		"postcss-reporter": "^7.0.5"
+		"autoprefixer": "^10.5.0",
+		"cssnano": "^7.1.9",
+		"postcss": "^8.5.15",
+		"postcss-cli": "^11.0.1",
+		"postcss-import": "^16.1.1",
+		"postcss-reporter": "^7.1.0"
 	},
 	"browserslist": [
 		"last 3 versions",
 		"> 5%",
 		"ff >= 10"
 	],
-	"postcss": {
-		"map": false,
-		"plugins": {
-			"postcss-import": {},
-			"autoprefixer": {},
-			"postcss-reporter": {
-				"clearMessages": true
-			}
-		}
-	},
 	"repository": "charliewilco/lgbtq.css",
 	"keywords": [
 		"pride",
